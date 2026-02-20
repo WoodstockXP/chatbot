@@ -5,42 +5,155 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Is anyone there?",
+        "What's up?"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! Welcome to our store!",
+        "Hi there! How can I help you today?",
+        "Welcome! Looking for something specific?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you later"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Thanks for visiting! See you soon.",
+        "Have a great day!",
+        "Come back anytime"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Appreciate it"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "product_categories",
+      "patterns": [
+        "What do you sell?",
+        "What products do you have?",
+        "Show me categories",
+        "What items are available?"
+      ],
+      "responses": [
+        "We offer Clothing, Bags, Shoes, Hats, and Accessories.",
+        "You can browse Fashion items including Shoes, Bags, and Accessories."
+      ]
+    },
+    {
+      "tag": "bags",
+      "patterns": [
+        "Show me bags",
+        "Do you sell backpacks?",
+        "I need a handbag",
+        "Bags available?"
+      ],
+      "responses": [
+        "We have backpacks, handbags, and travel bags available.",
+        "Our Bags section includes leather backpacks and fashion handbags."
+      ]
+    },
+    {
+      "tag": "shoes",
+      "patterns": [
+        "Show me shoes",
+        "Do you sell sneakers?",
+        "I need boots",
+        "Shoes available?"
+      ],
+      "responses": [
+        "We offer sneakers, boots, and casual shoes.",
+        "You can find trending shoes in our Shoes category."
+      ]
+    },
+    {
+      "tag": "clothing",
+      "patterns": [
+        "Show me clothing",
+        "Do you have jackets?",
+        "I need a t-shirt",
+        "Fashion clothes available?"
+      ],
+      "responses": [
+        "We offer jackets, t-shirts, hoodies, and more.",
+        "Our Clothing section includes seasonal collections."
+      ]
+    },
+    {
+      "tag": "hats",
+      "patterns": [
+        "Do you sell hats?",
+        "Show me caps",
+        "I need a hat"
+      ],
+      "responses": [
+        "We have caps and fashion hats available.",
+        "You can check out our Hats section for the latest styles."
+      ]
+    },
+    {
+      "tag": "accessories",
+      "patterns": [
+        "Do you sell accessories?",
+        "Show me accessories",
+        "Belts or scarves available?"
+      ],
+      "responses": [
+        "We offer belts, scarves, and other fashion accessories.",
+        "Our Accessories category has stylish add-ons for your outfit."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost?",
+        "What is the price?",
+        "Is it expensive?"
+      ],
+      "responses": [
+        "Prices vary by product. Please check the product page for details.",
+        "Each item has its own price listed in the catalog."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is it in stock?",
+        "Is this available?",
+        "Do you have it available?"
+      ],
+      "responses": [
+        "Stock availability is shown on each product page.",
+        "If the item can be added to cart, it is in stock."
+      ]
+    },
+    {
+      "tag": "sizes",
+      "patterns": [
+        "What sizes do you have?",
+        "Do you have size M?",
+        "Available sizes?"
+      ],
+      "responses": [
+        "Available sizes are listed on the product page.",
+        "You can select size options before adding to cart."
       ]
     },
     {
@@ -49,35 +162,68 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Payment methods?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept VISA, Mastercard, and PayPal.",
+        "Most major credit cards and PayPal are supported."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "shipping",
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When will I get my order?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Shipping takes 2–4 business days.",
+        "Delivery time is typically 2–4 days depending on your location."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "returns",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Can I return a product?",
+        "What is your return policy?",
+        "Do you accept returns?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "We offer a 30-day return policy.",
+        "Items can be returned within 30 days in original condition."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "Order status?"
+      ],
+      "responses": [
+        "Please provide your order number to track your order.",
+        "You can track your order using the tracking link sent to your email."
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Do you have discounts?",
+        "Any sales?",
+        "Promo codes available?"
+      ],
+      "responses": [
+        "Check our Sale section for current promotions.",
+        "We regularly offer seasonal discounts."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase?",
+        "Can you provide more details?",
+        "I didn't quite get that. Could you clarify?"
       ]
     }
   ]

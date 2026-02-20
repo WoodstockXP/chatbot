@@ -13,8 +13,8 @@ Clone repo and create a virtual environment
 ```
 $ git clone https://github.com/python-engineer/chatbot-deployment.git
 $ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ python -m venv venv
+$ .\venv\Scripts\Activate
 ```
 Install dependencies
 ```
@@ -25,6 +25,7 @@ Install nltk package
 $ (venv) python
 >>> import nltk
 >>> nltk.download('punkt')
+>>> nltk.download('punkt_tab')
 ```
 Modify `intents.json` with different intents and responses for your Chatbot
 
